@@ -1,0 +1,29 @@
+.city-input {
+    position: relative;
+
+    &__input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    &__suggestions {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        border: 1px solid #ccc;
+        background: #fff;
+        z-index: 10;
+
+        &--item {
+            padding: 10px;
+            cursor: pointer;
+
+            &:hover {
+                background: #f0f0f0;
+            }
+        }
+    }
+}
